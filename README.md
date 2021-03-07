@@ -13,7 +13,7 @@ To get started, check out [getting started page](https://jdayamx.github.io/docs/
 
 Three quick start options are available:
 
-- [Download the latest release](https://github.com/jdayamx/Gc-UI/archive/2.3.0.zip).
+- [Download the latest release](https://github.com/jdayamx/Gc-UI/archive/master.zip).
 - Clone the repo: `git clone https://github.com/jdayamx/Gc-UI.git`.
 
 Read the [getting started page](https://jdayamx.github.io/docs/getting-started.html) for information on the framework contents.
