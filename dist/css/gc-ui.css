@@ -491,7 +491,7 @@ img {
   padding: 4px;
   line-height: 1.72222;
   background-color: #fff;
-  border: 2px solid #bdc3c7;
+  border: 1px solid #bdc3c7;
   border-radius: 6px;
   transition: all .25s ease-in-out;
   display: inline-block;
@@ -802,7 +802,7 @@ pre {
   margin-bottom: 5px;
   line-height: 1.72222;
   background-color: #fff;
-  border: 2px solid #bdc3c7;
+  border: 1px solid #bdc3c7;
   border-radius: 6px;
   transition: border .25s ease-in-out;
 }
@@ -1730,7 +1730,7 @@ fieldset[disabled] input[type="text"] + .form-control-feedback,
   color: white;
   text-align: center;
   background-color: #bdc3c7;
-  border: 2px solid #bdc3c7;
+  border: 1px solid #bdc3c7;
   border-radius: 6px;
   transition: border .25s linear, color .25s linear, background-color .25s linear;
 }
@@ -1853,7 +1853,7 @@ fieldset[disabled]
 
 .input-group-btn .btn {
   background-color: white;
-  border: 2px solid #bdc3c7;
+  border: 1px solid #bdc3c7;
   color: #bdc3c7;
   line-height: 18px;
   height: 42px;
@@ -1915,7 +1915,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 }
 
 .input-group-btn > .btn-default + .btn-default {
-  border-left: 2px solid #bdc3c7;
+  border-left: 1px solid #bdc3c7;
 }
 
 .input-group-btn > .btn:first-child + .btn .caret {
@@ -4347,10 +4347,10 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 
 .navbar {
   font-size: 16px;
-  min-height: 53px;
-  margin-bottom: 30px;
+  min-height: 78px;
   border: none;
-  border-radius: 6px;
+  border-top: 3px solid #ffae00 ;
+  border-bottom: 3px solid #ffae00 ;
 }
 
 @media (min-width: 992px) {
@@ -4457,7 +4457,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 @media (min-width: 768px) {
   .navbar-brand {
     line-height: 1.042;
-    padding: 14px 21px;
+    padding: 0 24px 0 16px;
   }
 }
 
@@ -4515,7 +4515,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .navbar-nav > li > a {
   font-size: 16px;
   padding: 15px 0;
-  line-height: 23px;
+  line-height: 33px;
   font-weight: 700;
   position: relative;
   display: block;
@@ -4559,7 +4559,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   padding: 5px 10px;
   font-size: 13px;
   line-height: 1.4;
-  border-radius: 6px;
+  box-shadow: none !important;
 }
 
 .navbar-form .btn {
@@ -4586,13 +4586,12 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 
 .navbar-form .form-control, .navbar-form .select2-search input[type="text"], .select2-search .navbar-form input[type="text"] {
   font-size: 15px;
-  border-radius: 5px;
   display: table-cell;
 }
 
 .navbar-form .form-group ~ .btn {
   font-size: 15px;
-  border-radius: 5px;
+  border-radius: 0;
   margin-left: 5px;
 }
 
@@ -4620,7 +4619,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 
 .navbar-nav > li > .dropdown-menu, .navbar-nav > li > .select2-drop {
   min-width: 100%;
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 @media (max-width: 1199.98px) {
@@ -4636,8 +4635,8 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 }
 
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu, .navbar-fixed-bottom .navbar-nav > li > .select2-drop {
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .navbar-nav > .show > .dropdown-toggle,
@@ -4746,7 +4745,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e5e9ea;
-  border-width: 2px;
+  border-width: 1px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -4968,8 +4967,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-form .form-control, .navbar-inverse .navbar-form .select2-search input[type="text"], .select2-search .navbar-inverse .navbar-form input[type="text"] {
   color: #536a81;
-  border-color: #293a4a;
-  background-color: #293a4a;
+  border-color: white;
+  background-color: white;
 }
 
 .navbar-inverse .navbar-form .form-control::-moz-placeholder, .navbar-inverse .navbar-form .select2-search input[type="text"]::-moz-placeholder, .select2-search .navbar-inverse .navbar-form input[type="text"]::-moz-placeholder {
@@ -5028,7 +5027,7 @@ fieldset[disabled] .navbar-inverse .navbar-form .btn.active {
 
 .navbar-inverse .navbar-form .input-group-btn .btn {
   border-color: transparent;
-  background-color: #293a4a;
+  background-color: white;
   color: #526a82;
 }
 
@@ -5041,7 +5040,7 @@ fieldset[disabled] .navbar-inverse .navbar-form .btn.active {
 @media (max-width: 767px) {
   .navbar-inverse .navbar-form {
     border-color: #1C5CB3;
-    border-width: 2px 0;
+    border-width: 1px 0;
   }
 }
 
@@ -5089,16 +5088,6 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   background-color: white;
 }
 
-@media (min-width: 768px) {
-  .navbar-embossed > .navbar-collapse {
-    border-radius: 6px;
-    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
-  }
-  .navbar-embossed.navbar-inverse .navbar-nav .active > a,
-  .navbar-embossed.navbar-inverse .navbar-nav .show > a {
-    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
-  }
-}
 
 .navbar-lg {
   min-height: 76px;
@@ -7713,10 +7702,10 @@ footer p {
   .bootstrap-switch {
     height: 33px;
     width: 84px;
-    border: 2px solid #bdc3c7;
+    border: 1px solid #bdc3c7;
   }
   .ui-spinner-button, .tooltip {
-    border: 2px solid #bdc3c7;
+    border: 1px solid #bdc3c7;
   }
   .carousel-caption {
     background: rgba(255, 255, 255, 0.8) !important;
