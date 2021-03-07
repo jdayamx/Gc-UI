@@ -3,11 +3,11 @@
 
 Gc UI is a theme for [Bootstrap](http://getbootstrap.com). We have redesigned many of its components.
 
-To get started, check out [getting started page](https://jdayamx.github.io/Gc-UI/docs/getting-started.html) or follow instructions below.
+To get started, check out [getting started page](https://jdayamx.github.io/docs/getting-started.html) or follow instructions below.
 
 ## Links:
 
-+ [Demo Page](https://jdayamx.github.io/Gc-UI/)
++ [Demo Page](https://jdayamx.github.io/)
 
 ## Quick start
 
@@ -16,7 +16,7 @@ Three quick start options are available:
 - [Download the latest release](https://github.com/jdayamx/Gc-UI/archive/2.3.0.zip).
 - Clone the repo: `git clone https://github.com/jdayamx/Gc-UI.git`.
 
-Read the [getting started page](https://jdayamx.github.io/Gc-UI/docs/getting-started.html) for information on the framework contents.
+Read the [getting started page](https://jdayamx.github.io/docs/getting-started.html) for information on the framework contents.
 
 Examples: <https://github.com/jdayamx/Gc-UI/tree/master/docs/examples>.
 
@@ -49,7 +49,7 @@ We provide compiled CSS and JS (`gc-ui.*`), as well as compiled and minified CSS
 
 ## Documentation
 
-Gc UI's documentation, included in this repo in the docs directory and publicly hosted on GitHub Pages at <https://jdayamx.github.io/Gc-UI/docs/components.html>.
+Gc UI's documentation, included in this repo in the docs directory and publicly hosted on GitHub Pages at <https://jdayamx.github.io/docs/components.html>.
 
 ## Copyright and license
 

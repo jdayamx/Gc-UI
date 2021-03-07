@@ -1,6 +1,6 @@
 /*!
- * Flat UI Pro v1.3.2 (https://designmodo.com/flat)
- * Copyright 2013-2014 Designmodo, Inc.
+ * Gc UI Pro v0.0.1 (https://gc-ui.teedex.net)
+ * Copyright 2021 TEEDEX, Inc.
  */
 /*!
  * jQuery UI Core 1.10.4
