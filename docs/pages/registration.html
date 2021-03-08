@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1" />
+    <title>Gc UI - page registration</title>
+    <meta name="description" content="Gc UI Kit is a Twitter Bootstrap Theme"/>
+    <!-- Loading Bootstrap -->
+    <link href="../../dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="../../dist/css/gc-ui.css" rel="stylesheet">    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../dist/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../dist/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../dist/favicon-16x16.png">
+    <link rel="manifest" href="../../dist/site.webmanifest">
+    <link rel="mask-icon" href="../../dist/safari-pinned-tab.svg" color="#1c5cb3">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="dist/js/vendor/html5shiv.js"></script>
+      <script src="dist/js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+        <div class="container d-md-block d-none">
+            <div class="row">
+                <div class="col-5 social-icons">
+                    <a href="#"><span class="fui-facebook"></span></a>
+                    <a href="#"><span class="fui-instagram"></span></a>
+                    <a href="#"><span class="fui-twitter"></span></a>
+                    <a href="#"><span class="fui-youtube"></span></a>
+                </div>
+                <div class="col-4 contacts">
+                    <a href="tel:12345678" class="contact"><span class="fui-chat"> </span> 0 123 456-789</a>
+                    <a href="tel:12345678" class="contact"><span class="fui-chat"> </span> 0 123 456-789</a>
+                </div>
+                <div class="col-2 contacts">                 
+                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#exampleModal">Callback</button>
+                </div>
+                <div class="col-1 contacts">
+                    <a href="#">UA</a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-inverse navbar-embossed navbar-expand-lg" role="navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="/docs/assets/images/demo/logo.svg"></a>  
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-01"></button> 
+                <div class="collapse navbar-collapse" id="navbar-collapse-01">
+                    <a href="tel:12345678"><span class="fui-chat"> </span> 0 123 456-789</a> 
+                    <a href="tel:12345678"><span class="fui-chat"> </span> 0 123 456-789</a>
+                </div>         
+            </div>
+        </nav><!-- /navbar -->
+        
+    </header>
+    <container>
+        <div class="container">
+            <h3>Registration</h3>
+            <p>Fill in all the fields of the questionnaire carefully, reliably and without errors. The decision to issue a loan will depend on this. Surname, name and patronymic must be written in Ukrainian as indicated in your passport or ID card. </p>
+            <form role="form">
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-12">
+                        <label for="exampleSurname">Surname</label>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <input type="text" class="form-control" id="exampleSurname" placeholder="Surname">
+                    </div>                    
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-12">
+                        <label for="exampleName">Name</label>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="exampleName" placeholder="Name">
+                    </div>                    
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-12">
+                        <label for="exampleMiddlename">Middle name</label>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <input type="text" class="form-control" id="exampleMiddlename" placeholder="Middle name">
+                    </div>                    
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-12">
+                        <label for="examplephone">Mobile phone</label>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <input type="tel" class="form-control" id="examplephone" placeholder="Mobile phone">
+                    </div>                    
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-12">
+                        <label for="exampleEmail">Email</label>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <div class="input-group">  
+                                <input type="email" class="form-control" id="exampleEmail" placeholder="Email">
+                                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="bottom" title="The loan agreement will be sent to this address">
+                                    <span class="fui-info-circle info"></span>
+                                </span>
+                            </div>
+                        </div> 
+                    </div>                    
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-12">
+                        <label for="exampleInputPassword1">Password</label>
+                    </div>
+                    <div class="col-md-6 col-sm-12"> 
+                        <div class="form-group">
+                            <div class="input-group">                       
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="bottom" title="Password length - at least 6 characters ">
+                                    <span class="fui-info-circle info"></span>
+                                </span>
+                            </div>
+                        </div> 
+                    </div>                    
+                </div>
+                <hr>
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-12 text-center align-middle order-sm-2 order-md-1">
+                        <input type="checkbox" checked data-toggle="switch" id="custom-switch-03" data-on-text="<span class='fui-check'></span>" data-off-text="<span class='fui-cross'></span>" />                        
+                    </div>
+                    <div class="col-md-6 col-sm-12 order-sm-1 order-md-2">                        
+                        I have read the <a href="">RULES</a> for the provision of financial loans using electronic communications of the LIMITED LIABILITY COMPANY "GLOBAL CREDIT" and undertake to follow their changes<br>
+                        <a href="" data-toggle="modal" data-target="#text">I agree to the processing of personal data</a>
+                    </div>                    
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3 col-sm-12 text-center align-middle order-sm-2 order-md-1">
+                        <input type="checkbox" checked data-toggle="switch" id="custom-switch-03" data-on-text="<span class='fui-check'></span>" data-off-text="<span class='fui-cross'></span>" />                        
+                    </div>
+                    <div class="col-md-6 col-sm-12 order-sm-1 order-md-2">                        
+                        I would like to receive information about special offers and news from Global Credit 
+                    </div>                    
+                </div>
+                <hr>
+                <div class="form-group row">                    
+                    <div class="offset-md-3 col-md-6 col-sm-12">                        
+                        <a href="#fakelink" class="btn btn-block btn-lg btn-warning col-md-6">Next</a>
+                    </div>                    
+                </div>
+                 
+                
+            </form>
+
+        </div>
+    </container>
+    <footer>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-6">NEW © 2012 - 2021 Global Credit LLC</div>
+                <div class="col-6 text-right"><a href="tel:12345678" class="contact"><span class="fui-chat"> </span> 0 123 456-789</a></div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-6">License AB 1234567 dated 01/02/2021, issued by the National Commission of Financial Services </div>
+                <div class="col-6 text-right">work schedule from 08:00 to 20:00</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal fade" id="text" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content p-5">
+                I confirm my consent to the processing of my personal data, including receiving my credit history from any credit bureau. In order to provide an opinion on the issuance of a loan, I do not object to the collection and processing of additional contact and other information about me and I give my consent to this
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Request a call back</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Name:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                    <label for="recipient-phone" class="col-form-label">Phone:</label>
+                    <input type="tel" class="form-control" id="recipient-phone">
+                  </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--/Modals-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Bootstrap 4 requires Popper.js -->
+    <script src="https://unpkg.com/popper.js@1.14.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+    <script src="../../dist/scripts/gc-ui.min.js"></script>
+    <script src="../../docs/assets/js/application.js"></script>
+
+  </body>
+</html>
