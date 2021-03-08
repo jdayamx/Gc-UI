@@ -4349,8 +4349,8 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   font-size: 16px;
   min-height: 78px;
   border: none;
-  border-top: 3px solid #ffae00 ;
-  border-bottom: 3px solid #ffae00 ;
+  border-top: 2px solid #ffae00 ;
+  border-bottom: 2px solid #ffae00 ;
 }
 
 @media (min-width: 992px) {
@@ -4367,6 +4367,14 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 
 .navbar-collapse {
   box-shadow: none;
+}
+.navbar-collapse a {
+  color: white;
+  display: none;
+}
+.show a {
+  color: white;
+  display: inline-block;
 }
 
 .navbar-collapse .navbar-form:first-child {
@@ -5099,6 +5107,22 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
     height: 76px;
     padding-top: 26px;
     padding-bottom: 26px;
+  }
+  
+}
+@media (min-width: 268px) {
+  .navbar-brand {
+    width:80%; 
+    max-width:80%; 
+  }
+  .navbar-brand img { 
+       
+    margin:0;
+   padding:0;
+  }
+  .navbar-toggler {
+   margin:0;
+   padding:0;
   }
 }
 
@@ -7401,14 +7425,16 @@ input.todo-search-field::-webkit-input-placeholder {
 }
 
 footer {
-  background-color: #edeff1;
-  color: #bac1c8;
-  font-size: 15px;
-  padding: 0;
+  background-color: #1656ac;
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  font-size: 12px;
+  border-top: 1px solid #2d86ff;
 }
 
 footer a {
-  color: #9aa4af;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -7719,4 +7745,42 @@ footer p {
   .tile a:after {
     content: "";
   }
+}
+.social-icons {
+  font-size: 24px !important;
+}
+.social-icons a {  
+    display: inline-block;    
+    
+}
+
+.contacts, .social-icons {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contacts .contact span {
+  color: #ffae00 !important;
+}
+
+.contacts a {
+  margin-right: 10px;  
+}
+
+header {
+  height: auto;
+  background-color: #f5f5f5;
+}
+.input-group .info {
+  margin-left: 10px;
+  color:#bdc3c7;
+  font-size: 26px;
+}
+.input-group .info:hover {
+  color:#1c5cb3;
+}
+
+.modal-body .form-group input, .modal-body .form-group textarea {
+  text-shadow: none !important;
+  box-shadow: none !important;
 }
