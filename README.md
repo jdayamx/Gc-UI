@@ -9,6 +9,10 @@ To get started, check out [getting started page](https://jdayamx.github.io/docs/
 
 + [Demo Page](https://jdayamx.github.io/)
 
+## Some other pages
+
++ [Registration](https://jdayamx.github.io/docs/pages/registration.html)
+
 ## Quick start
 
 Three quick start options are available:
@@ -42,7 +46,9 @@ Gc-ui/
   ├── components.html
   ├── getting-started.html
   ├── index.html
-  └── template.html
+  ├── template.html
+  └── pages/
+    └── registration.html
 ```
 
 We provide compiled CSS and JS (`gc-ui.*`), as well as compiled and minified CSS and JS (`gc-ui.min.*`). Fonts with icons are included.
